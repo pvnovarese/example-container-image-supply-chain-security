@@ -7,7 +7,7 @@ jobs:
   build_image:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/pvnovarese/example-ci:latest
+      image: ghcr.io/pvnovarese/example-ci:main
     steps:
       - uses: actions/checkout@v2
 
@@ -24,7 +24,7 @@ jobs:
     needs: build_image
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/pvnovarees/example-ci:latest
+      image: ghcr.io/pvnovarees/example-ci:main
     steps:
       - name: "sign the image"
         env:
@@ -42,7 +42,7 @@ jobs:
     needs: build_image
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/pvnovarese/example-ci:latest
+      image: ghcr.io/pvnovarese/example-ci:main
     steps:
       - name: "create the SBOM"
         run: |
@@ -61,7 +61,7 @@ jobs:
     needs: create_image_sbom
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/pvnovarese/example-ci:latest
+      image: ghcr.io/pvnovarese/example-ci:main
     steps:
       - uses: actions/download-artifact@v2
         with:
@@ -82,7 +82,7 @@ jobs:
     needs: create_image_sbom
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/pvnovarese/example-ci:latest
+      image: ghcr.io/pvnovarese/example-ci:main
     steps:
       - uses: actions/download-artifact@v2
         with:
@@ -105,7 +105,7 @@ jobs:
     needs: scan_for_vulnerabilities
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/pvnovarese/example-ci:latest
+      image: ghcr.io/pvnovarese/example-ci:main
     steps:
       - uses: actions/download-artifact@v2
         with:
