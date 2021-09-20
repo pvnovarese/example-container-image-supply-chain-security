@@ -24,7 +24,7 @@ jobs:
     needs: build_image
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/pvnovarees/example-ci:main
+      image: ghcr.io/pvnovarese/example-ci:main
     steps:
       - name: "sign the image"
         env:
