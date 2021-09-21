@@ -1,5 +1,7 @@
 # example-container-image-supply-chain-security
 
+[![.github/workflows/build-and-publish.yaml](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/build-and-publish.yaml/badge.svg)](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/build-and-publish.yaml) [![.github/workflows/nightly.yaml](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/nightly.yaml/badge.svg)](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/nightly.yaml)
+
 Example repository that demonstrates a supply chain security workflow using Syft, Grype, Cosign
 
 If you want to try this out yourself you need to do the following:
