@@ -1,4 +1,4 @@
-# example-container-image-supply-chain-security
+# Open Source Summit 2021 Demo: Supply Chain Security Workflow
 
 [![.github/workflows/build-and-publish.yaml](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/build-and-publish.yaml/badge.svg)](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/build-and-publish.yaml) [![.github/workflows/nightly.yaml](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/nightly.yaml/badge.svg)](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/nightly.yaml) [![Anchore Container Scan](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/anchore-analysis.yml/badge.svg)](https://github.com/pvnovarese/oss-2021-sbom-complete-workflow-demo/actions/workflows/anchore-analysis.yml)
 
